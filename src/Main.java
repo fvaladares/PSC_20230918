@@ -1,3 +1,4 @@
+import aula16102023.Quadrado;
 import aula20230925.ImparOuPar;
 import aula20230925.LimitarCasasDecimais;
 import aula20230925.SucessoEmAlgoritmos;
@@ -29,13 +30,31 @@ public class Main {
 //        e.exponenciacao(2, 4);
 //        e.exponenciacao(5, 3);
 //
-        Desafio d = new Desafio();
-//
-        d.desafio();
+//        Desafio d = new Desafio();
+////
+//        d.desafio();
+        Scanner input = new Scanner(System.in);
+        // Cria um objeto que armazena a função responsável
+//         por imprimir um quadrado;
+        /*
+        Quadrado - nome da class
+        quadrado - nome do objeto(variável)
+        new - Cria uma instância da classe (permite usar o arquivo
+        criado separadamente)
+        Quadrado(); -> Tipo do dado que será utilizado (Nome da classe)
+         */
+        Quadrado quadrado = new Quadrado();
+        int tamanhoQuadrado;
+        System.out.print("Por favor, informe o tamanho do quadrado");
+        tamanhoQuadrado = input.nextInt();
+        System.out.println();
+        quadrado.imprimirQuadrado(tamanhoQuadrado);
+        System.out.println("Fim do programa");
+
 
 //            SucessoEmAlgoritmos sal = new SucessoEmAlgoritmos();
 //            sal.sucessoEmAlgoritmos();
-//            ip.definirParOuImpar();
+//            ip.definirParOuImpar();L
 //        }
 
 
