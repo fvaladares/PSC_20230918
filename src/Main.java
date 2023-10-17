@@ -49,6 +49,10 @@ public class Main {
         tamanhoQuadrado = input.nextInt();
         System.out.println();
         quadrado.imprimirQuadrado(tamanhoQuadrado);
+        System.out.println();
+        quadrado.imprimirDiagonalSuperior(tamanhoQuadrado);
+        System.out.println();
+        quadrado.imprimirDiagonalCrescenteParaDireita(tamanhoQuadrado);
         System.out.println("Fim do programa");
 
 
