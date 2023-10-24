@@ -4,6 +4,7 @@ import aula20230925.LimitarCasasDecimais;
 import aula20230925.SucessoEmAlgoritmos;
 import aula20231009.Desafio;
 import aula20231009.Exponenciacao;
+import aula20231023.Vilao;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -34,6 +35,24 @@ public class Main {
 ////
 //        d.desafio();
         Scanner input = new Scanner(System.in);
+        Vilao tartaruga; // Variável que arqmazena o objeto Vilão
+        Vilao tartarugaDoente = new Vilao();
+        tartaruga = new Vilao(); // Cria objeto do vilão
+        tartaruga.nome = "Floquinho";
+        tartaruga.mana = 100;
+        tartaruga.habilidade = "Fogo";
+//        vilao1.configurarVida(-1);
+        System.out.println(tartaruga);
+
+        tartarugaDoente.nome = "Gotinha";
+        tartarugaDoente.mana = 100;
+        tartarugaDoente.habilidade = "Água";
+        tartarugaDoente.configurarVida(50);
+
+        System.out.println(tartaruga);
+        System.out.println(tartarugaDoente);
+
+
         // Cria um objeto que armazena a função responsável
 //         por imprimir um quadrado;
         /*
@@ -43,17 +62,17 @@ public class Main {
         criado separadamente)
         Quadrado(); -> Tipo do dado que será utilizado (Nome da classe)
          */
-        Quadrado quadrado = new Quadrado();
-        int tamanhoQuadrado;
-        System.out.print("Por favor, informe o tamanho do quadrado");
-        tamanhoQuadrado = input.nextInt();
-        System.out.println();
-        quadrado.imprimirQuadrado(tamanhoQuadrado);
-        System.out.println();
-        quadrado.imprimirDiagonalSuperior(tamanhoQuadrado);
-        System.out.println();
-        quadrado.imprimirDiagonalCrescenteParaDireita(tamanhoQuadrado);
-        System.out.println("Fim do programa");
+//        Quadrado quadrado = new Quadrado();
+//        int tamanhoQuadrado;
+//        System.out.print("Por favor, informe o tamanho do quadrado");
+//        tamanhoQuadrado = input.nextInt();
+//        System.out.println();
+//        quadrado.imprimirQuadrado(tamanhoQuadrado);
+//        System.out.println();
+//        quadrado.imprimirDiagonalSuperior(tamanhoQuadrado);
+//        System.out.println();
+//        quadrado.imprimirDiagonalCrescenteParaDireita(tamanhoQuadrado);
+//        System.out.println("Fim do programa");
 
 
 //            SucessoEmAlgoritmos sal = new SucessoEmAlgoritmos();
